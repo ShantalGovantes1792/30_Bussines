@@ -6,7 +6,7 @@
 	  	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	  	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 	  	<link rel="stylesheet" type="text/css" href="css/icomoon.css">
-	  	<link rel="stylesheet" type="text/css" href="css/main">	
+	  	<link rel="stylesheet" type="text/css" href="css/main.css">	
 	  	<link rel="icon" type="image/png" href="favicon.ico.png"/>
 	  	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	  	<!-- HTML5 Shim and Respond.js Agrega soporte para elementos HTML5 y media quieries en IE8 -->
@@ -14,43 +14,65 @@
 	    <!--[if lt IE 9]>-->
 	</head>
 	<body>
-		<header>
-			<div class="container-fluid">
+		<header class="bg-header">
+			<div class="container-fluid pantalla">
 				<nav>
 					<div class="row">
-						<div class="col-md-12">
-							
+						<div>
+							<img src="img/user-r.png" alt="logo">
+						</div>
+						<div>
+							<ul>
+								<li>¿Qué me ofrece?</li>
+								<li>¿Cómo funciona?</li>
+								<li>¿Por qué usarlo?</li>
+								<li>Contáctanos</li>
+							</ul>
 						</div>
 					</div>
 				</nav>
+				<div class="row">
+					<div class="col-md-12 text-center text-white">
+						<h1>Obtén videos de personas reales <br>utilizando tu sitio web, en 1 Hora</h1>
+					</div>
+				</div>
+				<div class="row pantallazul">
+					<div class="col-md-6 col-xs-12 text-white" align="right">
+						<h2>PRUEBA GRATIUTA</h2>
+						<p>Obtén un video gratis de 5 minutos</p>
+					</div>
+					<div class="col-md-6 col-xs-12" align="left">
+						<button>Pruebalo gratis</button>
+					</div>
+				</div>
 			</div>
 		</header>
 		<!-- NUESTROS SERVICIOS -->
 		<section>
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12 col-xs-12">
-						<h2>Nuestros Servicios</h2>
+			<div class="container pt-5">
+				<div class="row pb-5">
+					<div class="col-md-12 col-xs-12 text-center">
+						<h2 class="tex-blue">Nuestros Servicios</h2>
 					</div>
 				</div>
-				<div class="row">
-					<div class="col-md-4 col-sx-12"><!-- PRIMERA COLUMNA -->
-						<img src="" alt="">
+				<div class="row pb-5">
+					<div class="col-md-4 col-sx-12 text-center"><!-- PRIMERA COLUMNA -->
+						<i class="fa fa-film fa-5x" aria-hidden="true"></i>
 						<h3>Pruebalo <br>Gratis</h3>
 						<p>Obtén un primer video screencast de un usuario navegando en tu página</p>
 					</div>
-					<div class="col-md-4 col-sx-12"><!-- SEGUNDA COLUMNA -->
-						<img src="" alt="">
+					<div class="col-md-4 col-sx-12 text-center"><!-- SEGUNDA COLUMNA -->
+						<i class="fa fa-clock-o fa-5x" aria-hidden="true"></i>
 						<h3>Compara el <br>servicio completo</h3>
 						<p>Si te gustó; compra nuestro servicio completo que incluye 7 videos y feedback </p>
 					</div>
-					<div class="col-md-4 col-sx-12"><!--TERCERA COLUMNA -->
-						<img src="" alt="">
-						<h3>Obtén el resultado en 1 día </h3>
+					<div class="col-md-4 col-sx-12 text-center"><!--TERCERA COLUMNA -->
+						<i class="fa fa-files-o fa-5x" aria-hidden="true"></i>
+						<h3>Obtén el resultado <br> en 1 día </h3>
 						<p>Te haremos llegar los videos y el feedback completo el mismo día.</p>
 					</div>
 					<div class="row">
-					<div class="col-md-12 col-xs-12">
+					<div class="col-md-12 col-xs-12" align="center">
 						<hr>
 						<img src="img/separador.png" alt="separador">
 					</div>
@@ -58,15 +80,15 @@
 			</div>
 		</section>
 		<section> <!-- EJEMPLO DE USER TESTING -->
-			<div class="container">
+			<div class="container pb-5 pt-5">
 				<div class="row">
 					<div class="col-md-6 col-xs-12">
 						<div class="row">
-							<div class="col-md-6">
+							<div class="col-md-6" align="right">
 								<h2>Ejemplo de</h2>
 							</div>
 							<div class="col-md-6">
-								<img src="img/logo-2.jpg" alt="logo">
+								<img class="img-responsive" src="img/logo-2.jpg" alt="logo">
 							</div>
 						</div>
 						<div class="row">
@@ -79,7 +101,7 @@
 						</div>
 					</div>
 					<div class="col-md-6 col-xs-12"><!-- VIDEO -->
-						
+						<iframe width="560" height="315" src="https://www.youtube.com/embed/fk4BbF7B29w?rel=0" frameborder="0" allowfullscreen></iframe>
 					</div>
 				</div>
 			</div>
@@ -88,14 +110,12 @@
 			<div class="container-fluid">
 				<div class="row">
 					<div class="col-md-5 col-xs-12">
-						<img src="img/sec-2.jpg" alt="escritorio">
-						</div>
-						<div>
-							<div class="transparencia">
+						<img class="img-responsive"src="img/sec-2.jpg" alt="">
+						<div class="transparencia"></div>
 						</div>
 					</div>
 					<div class="col-md-2"><!-- ICONOS -->
-						<img src="" alt="">
+						
 					</div>
 					<div class="col-md-5 col-xs-12">
 						<h2>Lo quiero ¿Qué hago?</h2>
@@ -146,7 +166,7 @@
 				</div>
 			</div>
 		</section>
-		<section>
+		<section class="blue">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6 col-xs-12">
@@ -164,11 +184,12 @@
 				<div class="row">
 					<div class="col-md-6 col-xs-6">
 						<p>EScribenos a:</p>
-						<p><a href="">experienciadeusaurio.lab@gmail.com</a></p>
+						<p><a href="mailto:experienciadeusaurio.lab@gmail.com">experienciadeusaurio.lab@gmail.com</a></p>
 						<p>telef: 987454356</p>
 					</div>
 					<div class="col-md-6 col-xs-6">
-						
+						<i class="fa fa-facebook" aria-hidden="true"></i>
+						<i class="fa fa-twitter" aria-hidden="true"></i>
 						<p>copyright &copy 2015-User Testing 360</p>
 					</div>
 				</div>
