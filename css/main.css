@@ -14,9 +14,16 @@
 }
 footer{
 	background-color: #2A3541;
+	padding-top: 2%;
+	padding-bottom: 2%;
 }
 .blue{
 	background-color: #74A3DB;
+	padding-bottom: 2%;
+	padding-top: 2%;
+}
+.text-blue{
+	color: #74A3DB;
 }
 h2, h3{
 	color: #58A5FF;
@@ -27,8 +34,53 @@ h2, h3{
 .pt-5{
 	padding-top: 5%;
 }
+.pt-10{
+	padding-top: 10%;
+}
 .img-compu{
 	/*background-image: url("../img/sec-2.jpg");*/
 	height: 100%;
 	/*width: 100%;*/
+}
+
+.ico-nuestro-ser{
+	font-size: 3em;
+	color: #74A3DB;
+	border-radius: 100px;
+	box-shadow: 10px 10px 5px #BDBDBD;
+	background-color: #FFF;
+	padding: 10%;
+
+}
+.ico-loquiero{
+	display: inline-block;
+	font-size: 2em;
+	color: #FFF;
+	border-radius: 100px;
+	background-color: #74A3DB;
+	padding: 10%;
+	margin-bottom: 20%;
+	margin-top: 20%;
+}
+.ul-li{
+	list-style: none;
+	margin-bottom: 10%;
+}
+.margin0{
+	margin: 0%;
+}
+button{
+	border-radius: 7px;
+	color: white;
+	font-size: 2em;
+	background-color: transparent;
+	border: solid white 2px;
+	margin-top:2%; 
+}
+h4{
+	font-size: 2em;
+}
+.tam-{
+	font-size: 2em;
+	color: #74A3DB;
 }
