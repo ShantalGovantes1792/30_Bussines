@@ -102,10 +102,46 @@ hr{
 .img-separador{
 	margin-top: -5%;
 }
-
-img:hover{
-	background-color: #FFF;
+/*HOVER IMAGES*/
+/*.img-general{
+	width: 100%;
+	height: 450px;
+}*/
+.lap{
+	background-image: url("../img/sec-2.jpg");
+	background-size: 150% 100%;
+	width: 100%;
+	height: 450px;
+	opacity: 1;
 }
+.lap-chico{
+	background-image: url("../img/banner.jpg");
+	background-size: cover;
+	width: 100%;
+	height: 450px;
+	opacity: 1;
+}
+
+.pantallas-img{ /*AZUL*/
+	background-color: blue;
+	-webkit-transition:opacity 0.2s;
+	width: 100%;
+	height: 450px;
+	opacity: 0;
+}
+
+ .lap-chico:hover .pantallas-img{
+	opacity: 0.5;
+	
+
+} 
+.lap:hover .pantallas-img{
+	opacity: 0.5;
+}
+
+/*LA PALABRA HOVER TIENE QUE ESTAR JUNTO A LA CLASE 
+CON LOS DOS PUNTOS PEGADO PEGADOS A LA CLASE*/
+
 /*LO QUE QUIERO; LO QUE HAGO*/
 
 /*.img-compu{
