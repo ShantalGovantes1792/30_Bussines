@@ -73,6 +73,9 @@ h2{
 	color: #58A5FF;
 	font-family: 'Raleway', sans-serif;
 }
+a:hover{
+	text-decoration: none;
+}
 h4{
 	font-size: 2em;
 }
@@ -155,4 +158,14 @@ footer{
 }
 .pr-0{
 	padding-right: 0%;
+}
+/*MODAL FADE*/
+.modal.fade{
+	background-image: url("../img/large.jpg");
+	background-size: cover;
+	width: 100%;
+}
+input{
+	width: 70%;
+	padding-left: 2%;
 }
