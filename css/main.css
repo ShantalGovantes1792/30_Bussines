@@ -62,7 +62,9 @@ button{
 h1{
 	font-size: 3.5em;
 	margin-top:8.5%;
-	margin-bottom: 7%; 
+	margin-bottom: 7%;
+	/*animation-duration:3s;
+	animation-name: slidein;*/ 
 }
 h3{
 	color: #58A5FF;
@@ -101,7 +103,9 @@ hr{
 	margin-top: -5%;
 }
 
-
+img:hover{
+	background-color: #FFF;
+}
 /*LO QUE QUIERO; LO QUE HAGO*/
 
 /*.img-compu{
