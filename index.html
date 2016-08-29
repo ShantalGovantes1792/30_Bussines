@@ -6,7 +6,8 @@
 	  	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	  	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 	  	<link rel="stylesheet" type="text/css" href="css/icomoon.css">
-	  	<link rel="stylesheet" type="text/css" href="css/main.css">	
+	  	<link rel="stylesheet" type="text/css" href="css/main.css">
+	  	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway" rel="stylesheet">	
 	  	<link rel="icon" type="image/png" href="favicon.ico.png"/>
 	  	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	  	<!-- HTML5 Shim and Respond.js Agrega soporte para elementos HTML5 y media quieries en IE8 -->
@@ -16,20 +17,25 @@
 	<body>
 		<header class="bg-header">
 			<div class="container-fluid pantalla">
-				<nav>
-					<div class="row">
-						<div>
-							<img src="img/user-r.png" alt="logo">
-						</div>
-						<div>
-							<ul>
-								<li>¿Qué me ofrece?</li>
-								<li>¿Cómo funciona?</li>
-								<li>¿Por qué usarlo?</li>
-								<li>Contáctanos</li>
-							</ul>
-						</div>
-					</div>
+				<nav class="navbar navbar-default">
+				  <div class="container-fluid">
+				    <div class="navbar-header">
+				      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				        <span class="icon-bar"></span>
+				      </button>
+				      <a class="navbar-brand" href="#"><img class="logo"src="img/user-r.png" alt="logo"></a>
+				    </div>
+				    <div class="collapse navbar-collapse" id="myNavbar">
+				      <ul class="nav navbar-nav navbar-right col-md-6 col-sm-6">
+				        <li><a href="#">¿Qué me ofrece?</a></li>
+				        <li><a href="#">¿Cómo funciona?</a></li>
+				        <li><a href="#">¿Por qué usarlo?</a></li>
+				        <li><a href="#">Contáctanos</a></li>
+				      </ul>
+				    </div>
+				  </div>
 				</nav>
 				<div class="row">
 					<div class="col-md-12 text-center text-white">
@@ -38,7 +44,7 @@
 				</div>
 				<div class="row pantallazul">
 					<div class="col-md-6 col-xs-12 text-white" align="right">
-						<h2 class="text-white">PRUEBA GRATIUTA</h2>
+						<h2 class="text-white">PRUEBA GRATUITA</h2>
 						<p>Obtén un video gratis de 5 minutos</p>
 					</div>
 					<div class="col-md-6 col-xs-12" align="left">
@@ -51,44 +57,52 @@
 		<section>
 			<div class="container pt-5">
 				<div class="row pb-5">
-					<div class="col-md-12 col-xs-12 text-center">
+					<div class="col-md-12 col-xs-12 text-center pt-5">
 						<h2 class="tex-blue">Nuestros Servicios</h2>
 					</div>
 				</div>
 				<div class="row pt-5 pb-5">
 					<div class="col-md-4 col-sx-12 text-center"><!-- PRIMERA COLUMNA -->
-						<span class="icon-video ico-nuestro-ser"> </span>
-						<h3 class="pt-10">Pruebalo <br>Gratis</h3>
+						<div class="mb-30">
+							<span class="icon-video ico-redondeado"></span>
+						</div>
+						<h3>Pruebalo <br>Gratis</h3>
 						<p>Obtén un primer video screencast de un usuario navegando en tu página</p>
 					</div>
 					<div class="col-md-4 col-sx-12 text-center"><!-- SEGUNDA COLUMNA -->
-						<span class="icon-clock ico-nuestro-ser"> </span>
-						<h3 class="pt-10">Compara el <br>servicio completo</h3>
+						<div class="mb-30">
+							<span class="icon-clock ico-redondeado"></span>
+						</div>
+						<h3>Compara el <br>servicio completo</h3>
 						<p>Si te gustó; compra nuestro servicio completo que incluye 7 videos y feedback </p>
 					</div>
 					<div class="col-md-4 col-sx-12 text-center"><!--TERCERA COLUMNA -->
-						<span class="icon-documents ico-nuestro-ser"> </span>
-						<h3 class="pt-10">Obtén el resultado <br> en 1 día </h3>
+						<div class="mb-30">
+							<span class="icon-documents ico-redondeado"></span>
+						</div>
+						<h3>Obtén el resultado <br> en 1 día </h3>
 						<p>Te haremos llegar los videos y el feedback completo el mismo día.</p>
 					</div>
-					<div class="row">
+				</div>
+				<div class="row pt-5">
 					<div class="col-md-12 col-xs-12" align="center">
 						<hr>
-						<img src="img/separador.png" alt="separador">
+						<img class="img-separador" src="img/separador.png" alt="separador">
 					</div>
 				</div>
 			</div>
 		</section>
-		<section> <!-- EJEMPLO DE USER TESTING -->
+		<!-- EJEMPLO DE USER TESTING -->
+		<section>
 			<div class="container pb-5 pt-5">
 				<div class="row">
 					<div class="col-md-6 col-xs-12">
-						<div class="row">
-							<div class="col-md-6" align="right">
-								<h2 class="pb-5">Ejemplo de</h2>
+						<div class="row pb-5">
+							<div class="col-md-6 col-xs-6 pr-0" align="right">
+								<h2>Ejemplo de</h2>
 							</div>
-							<div class="col-md-6">
-								<img class="img-responsive" src="img/logo-2.jpg" alt="logo">
+							<div class="col-md-6 col-xs-6 pl-0">
+								<img class=" span-super img-responsive" src="img/logo-2.jpg" alt="logo">
 							</div>
 						</div>
 						<div class="row">
@@ -96,25 +110,32 @@
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, alias non ullam ratione deleniti magni perspiciatis incidunt libero.</p>
 								<p><small><a href="">mimediamanza.com</a></small></p>
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non tempora aliquam, suscipit itaque commodi consectetur ducimus beatae repellat ipsa molestiae, quo corporis velit autem sapiente culpa obcaecati nam modi eligendi.</p>
-								<div align="center">
+								<div class="pt-5" align="center">
 									<img src="img/flecha.png" alt="flecha">
-								</div>
-								
+								</div>	
 							</div>
 						</div>
 					</div>
-					<div class="col-md-6 col-xs-12"><!-- VIDEO -->
+					<div class="col-md-6 col-xs-12" align="center"><!-- VIDEO -->
 						<iframe width="560" height="315" src="https://www.youtube.com/embed/fk4BbF7B29w?rel=0" frameborder="0" allowfullscreen></iframe>
 					</div>
 				</div>
 			</div>
 		</section>
+		<!-- LO QUIERO, ¿QUÉ HAGO? -->
 		<section>
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-md-5 col-xs-12">
+					<div class="col-md-12 mb-0">
+						<hr>
+					</div>
+				</div>
+				<div class="row pb-5">
+					<div class="col-lg-5 col-md-5 col-xs-12">
+						<!-- <div class="img-compu img-responsive">
+						</div> -->
 						<img class="img-responsive" src="img/sec-2.jpg" alt="">
-						<div class="transparencia"></div>
+						<div class="pantallazul"></div>
 					</div>
 					<div class="col-md-2 margin0"><!-- ICONOS -->
 						<ul class="ul-li">
@@ -130,10 +151,10 @@
 						</ul>
 					</div>
 					<div class="col-md-5 col-xs-12">
-						<h2>Lo quiero ¿Qué hago?</h2>
-						<h5>Paso 1: envianos tu link</h5>
+						<h2 class="text-black">Lo quiero ¿Qué hago?</h2>
+						<h3>Paso 1: envianos tu link</h3>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore odio asperiores.</p>
-						<h2>Paso 2: Describe a tu público objetivo</h2>
+						<h3>Paso 2: Describe a tu público objetivo</h3>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing</p>
 						<ul>
 							<li>Lorem ipsum dolor sit amet</li>
@@ -141,8 +162,14 @@
 							<li>Lorem ipsum dolor sit amet</li>
 						</ul>
 						<p>Lorem ipsum dolor sit amet</p>
-						<h5>Paso 3: recibe un video y el feedback completo</h5>
+						<h3>Paso 3: recibe un video y el feedback completo</h3>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, magni, quasi? Sunt accusamus obcaecati, aperiam dolores.</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12 col-xs-12" align="center">
+						<hr>
+						<img class="img-separador pt-1" src="img/separador.png" alt="separador">
 					</div>
 				</div>
 			</div>
@@ -151,21 +178,21 @@
 			<div class="container">
 				<div class="row pt-5 pb-5">
 					<div class="col-md-6 col-xs-12">
-						<div class="row">
-							<div class="col-md-6">
+						<div class="row pb-5">
+							<div class="col-md-6 col-xs-6 pr-0">
 								<h2 align="right">Por qué usar</h2>
 							</div>
-							<div class="col-md-6" align="left">
-								<img class="img-responsive" src="img/logo-2.jpg" alt="logo">
+							<div class="col-md-6 col-xs-6" align="left">
+								<img class=" span-super img-responsive" src="img/logo-2.jpg" alt="logo">
 							</div>
 						</div>
 						<div class="row">
 							<div class="col-md-12 col-xs-12">
 								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span text-blue>Vel, alias</span> non ullam ratione deleniti magni perspiciatis incidunt libero.lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit. <span text-blue>Cupiditate</span> a, quae, in soluta dignissimos enim corporis facere minus accusamus dolorum at quisquam quas. Recusandae molestiae iusto iure atque, hic delectus? </p>
-								<ul>
-									<li>Recusandae molestiae iusto iure atque, hic delectus? </li>
-									<li>Recusandae molestiae iusto iure atque, hic delectus? </li>
-									<li>Recusandae molestiae iusto iure atque, hic delectus? </li>
+								<ul class="pt-5 pb-5">
+									<li class="pt-1">Recusandae molestiae iusto iure atque, hic delectus? </li>
+									<li class="pt-1">Recusandae molestiae iusto iure atque, hic delectus? </li>
+									<li class="pt-1">Recusandae molestiae iusto iure atque, hic delectus? </li>
 								</ul>
 								<p><span class="text-blue">Lorem ipsum dolor</span> sit amet, consectetur adipisicing elit.</p>
 							</div>
@@ -177,7 +204,7 @@
 				</div>
 			</div>
 		</section>
-		<section class="blue">
+		<section class="fondoazul">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-6 col-xs-12 text-white text-center">
@@ -185,7 +212,8 @@
 						<p>Obtén un video de 5 minutos gratis</p>
 					</div>
 					<div class="col-md-6 col-xs-12 text-center">
-						<button>Pruebalo Gratis</button>
+						<button data-toggle="modal" data-target="#miventana">Pruebalo Gratis</button>
+						<div class="modal fade" id="miventana" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"></div>
 					</div>
 				</div>
 			</div>
@@ -193,14 +221,14 @@
 		<footer> <!-- FOOTER -->
 			<div class="container-fluid">
 				<div class="row">
-					<div class="col-md-6 col-xs-6">
+					<div class="col-md-6 col-xs-12">
 						<p class="text-white">Escribenos a:</p>
 						<p><a href="mailto:experienciadeusaurio.lab@gmail.com">experienciadeusaurio.lab@gmail.com</a></p>
 						<p class="text-white">telef: 987454356</p>
 					</div>
-					<div class="col-md-6 col-xs-6 text-white" align="right">
-						<span class="icon-facebook tam-"> </span>
-						<span class="icon-twitter tam-"> </span>
+					<div class="col-md-6 col-xs-12 text-white" align="right">
+						<span class="icon-facebook redes"> </span>
+						<span class="icon-twitter redes"> </span>
 						<p>copyright &copy 2015-User Testing 360</p>
 					</div>
 				</div>
