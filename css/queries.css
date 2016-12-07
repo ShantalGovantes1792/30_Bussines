@@ -1,0 +1,42 @@
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+
+@media screen and (max-width: 699px) and (min-width: 520px) {
+    
+    }
+}
+
+/* Small devices (tablets, 768px and up) */
+/*@screen-sm-min*/
+@media screen and (min-width:768px) { 
+
+	.lap{
+	/*background-image: url("../img/sec-2.jpg");*/
+	background-size: 50% 50%;
+	width: 50%;
+	height: 50%;
+	/*opacity: 1;*/
+}
+.lap-chico{
+	background-image: url("../img/banner.jpg");
+	background-size: 150% 100%;
+	width: 100%;
+	height: 450px;
+	opacity: 1;
+}
+
+.pantallas-img{ /*AZUL*/
+	background-color: blue;
+	-webkit-transition:opacity 0.2s;
+	width: 100%;
+	height: 450px;
+	opacity: 0;
+}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { ... }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { ... }

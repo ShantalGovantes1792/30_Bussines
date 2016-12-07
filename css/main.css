@@ -102,45 +102,27 @@ hr{
 .img-separador{
 	margin-top: -5%;
 }
-/*HOVER IMAGES*/
-/*.img-general{
-	width: 100%;
-	height: 450px;
-}*/
-.lap{
-	background-image: url("../img/sec-2.jpg");
-	background-size: 150% 100%;
-	width: 100%;
-	height: 450px;
-	opacity: 1;
+
+/*HOVER NUEVO*/
+.divFondo{
+  width: 95%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+  opacity: 0;
+  transition-duration: 1s;
+  
 }
-.lap-chico{
-	background-image: url("../img/banner.jpg");
-	background-size: cover;
-	width: 100%;
-	height: 450px;
-	opacity: 1;
+.divFondo:hover{
+  opacity: 1;
+  transition-duration: 1s;
+  background-color: rgba(114, 157, 218, 0.5); 
 }
 
-.pantallas-img{ /*AZUL*/
-	background-color: blue;
-	-webkit-transition:opacity 0.2s;
-	width: 100%;
-	height: 450px;
-	opacity: 0;
-}
 
- .lap-chico:hover .pantallas-img{
-	opacity: 0.5;
-	
-
-} 
-.lap:hover .pantallas-img{
-	opacity: 0.5;
-}
 
 /*LA PALABRA HOVER TIENE QUE ESTAR JUNTO A LA CLASE 
-CON LOS DOS PUNTOS PEGADO PEGADOS A LA CLASE*/
+CON LOS DOS PUNTOS PEGADO PEGADOS A LA CLASE
 
 /*LO QUE QUIERO; LO QUE HAGO*/
 
@@ -199,13 +181,9 @@ footer{
 .pr-0{
 	padding-right: 0%;
 }
-/*MODAL FADE*/
+/*MODAL*/
 .modal.fade{
 	background-image: url("../img/large.jpg");
 	background-size: cover;
 	width: 100%;
-}
-input{
-	width: 70%;
-	padding-left: 2%;
 }
