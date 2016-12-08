@@ -187,3 +187,61 @@ footer{
 	background-size: cover;
 	width: 100%;
 }
+
+
+/*MEDIDA EXTRA CHICA XS*/
+/*@media (max-width: 379px) {
+	h1{
+		font-size: 0.5em;
+		color: blue;
+	}
+}*/
+
+
+@media (max-width: 768px){
+	h1{
+		font-size: 1.5em;
+	
+	}
+	h2{
+		font-size: 1.8em;
+	
+	}
+
+	.h2-big{
+		font-size: 2.2em;
+	}
+	.text-center-768px{
+		text-align: center;
+	}
+	
+	.centrado{
+		padding: 0px;
+	}
+
+	.bg-header{
+		height: 340px;
+	}
+	.img-separador{
+		margin-top: -15%;
+	}
+	.hr-768{
+		margin-top: 15%;
+	}
+}
+/*MEDIDA SMALL SM 
+tambien se puede poner 
+@media screen (min-width:499px) and (max-width:991px)*/
+/*@media screen (min-width:499px) and (max-width:991px){
+	h1{
+		font-size: 0.5em;
+		color: red;
+	}
+	
+
+}*/
+/*MEDIDA MEDIANO MD*/
+/*@media screen (min-width:992px) and (max-width:1199px){ 
+*/	
+
+}
